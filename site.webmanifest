@@ -1,0 +1,15 @@
+{
+  "name": "Mobile Soccer Media",
+  "short_name": "Mobile Soccer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b0d12",
+  "icons": [
+    {
+      "src": "assets/images/mobile-soccer-logo-modern.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

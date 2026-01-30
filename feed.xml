@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mobile Soccer Media Blog</title>
+    <link>https://www.mobilesoccer.net/</link>
+    <description>Notes on in-game media, attention moments, and measurement.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Jan 2026 11:24:32 GMT</lastBuildDate>
+
+    <item>
+      <title>Why in-game match moments outperform generic ads</title>
+      <link>https://www.mobilesoccer.net/#blog</link>
+      <description>Attention is naturally higher during live play. Repetition + context builds recall.</description>
+      <pubDate>Thu, 15 Jan 2026 11:24:32 GMT</pubDate>
+      <guid>https://www.mobilesoccer.net/#blog-post-1</guid>
+    </item>
+
+    <item>
+      <title>Brand safety in sports games: what “direct” really means</title>
+      <link>https://www.mobilesoccer.net/#blog</link>
+      <description>Direct partnerships give creative approvals, placement rules, and predictable inventory.</description>
+      <pubDate>Thu, 15 Jan 2026 11:24:32 GMT</pubDate>
+      <guid>https://www.mobilesoccer.net/#blog-post-2</guid>
+    </item>
+
+    <item>
+      <title>Measurement that makes sense for in-game media</title>
+      <link>https://www.mobilesoccer.net/#blog</link>
+      <description>Impressions are table stakes. Reporting should fit gameplay exposure and objectives.</description>
+      <pubDate>Thu, 15 Jan 2026 11:24:32 GMT</pubDate>
+      <guid>https://www.mobilesoccer.net/#blog-post-3</guid>
+    </item>
+  </channel>
+</rss>

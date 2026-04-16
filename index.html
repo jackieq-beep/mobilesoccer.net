@@ -151,6 +151,49 @@
       .contact{grid-template-columns:1fr}
       .navlinks{display:none}
     }
+
+    h1, h2, .tile h3, .card h3{ text-wrap:balance }
+    .lead, .section-desc, .tile p, .card ul, .statnote{ text-wrap:pretty }
+
+    @media (max-width: 640px){
+      .container{width:min(var(--max), calc(100% - 32px));}
+      header{backdrop-filter:none}
+      nav{padding:14px 0;gap:12px}
+      .brand-name{font-size:15px}
+      .btn{padding:10px 13px}
+      .hero{padding:42px 0 22px}
+      h1{font-size:clamp(32px, 10vw, 44px); line-height:1.03; letter-spacing:-.035em; max-width:11ch}
+      .lead{font-size:16px; line-height:1.62; max-width:34ch}
+      .hero-meta{gap:12px; margin-top:16px; padding-top:16px}
+      .meta{min-width:0; flex:1 1 100%}
+      section{padding:42px 0}
+      .section-top{align-items:start; gap:10px; margin-bottom:14px}
+      h2{font-size:24px; line-height:1.1}
+      .section-desc{font-size:15px; line-height:1.65}
+      .statgrid{grid-template-columns:1fr; gap:14px}
+      .statcard{padding:18px; border-radius:20px}
+      .statnum{font-size:38px}
+      .statlabel{font-size:15px}
+      .statnote{font-size:13px; line-height:1.5}
+      .tile-body{padding:16px}
+      .tile h3{font-size:17px; line-height:1.2}
+      .tile p{font-size:15px; line-height:1.6}
+      .tagrow{gap:8px}
+      .tag{font-size:11px; padding:5px 9px}
+      .card{padding:18px; border-radius:20px}
+      .card h3{font-size:17px}
+      .card ul{font-size:15px; line-height:1.65}
+      .contact .card p{font-size:15px}
+      footer .footgrid{gap:12px}
+      .small{font-size:12px; line-height:1.55}
+    }
+
+    @media (max-width: 420px){
+      .cta{flex-direction:column}
+      .cta .btn{width:100%}
+      h1{max-width:10ch}
+      .statnum{font-size:34px}
+    }
   
 /* ---- Premium motion layer (subtle, agency-safe) ---- */
 :root{

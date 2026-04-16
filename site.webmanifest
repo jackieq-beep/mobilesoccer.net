@@ -1,6 +1,7 @@
 {
   "name": "Mobile Soccer Media",
   "short_name": "Mobile Soccer",
+  "description": "In game sponsorships for mobile football games.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

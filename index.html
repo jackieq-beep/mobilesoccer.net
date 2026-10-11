@@ -3,22 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mobile Soccer Media | In-Game Sponsorship in Mobile Football Games</title>
-<meta name="description" content="Put your brand inside live mobile football. Mobile Soccer Media sells direct, brand-safe sponsorship in Football League: pitch-side LED boards, scoreboards, replays and event takeovers, seen by a 100M+ download audience.">
+<title>In-Game Advertising for Mobile Soccer Games | Mobile Soccer Media</title>
+<meta name="description" content="In-game advertising and sponsorship inside Football League, a mobile soccer game with 100M+ downloads. Buy direct, brand-safe placements: pitch-side LED boards, scoreboards, Player of the Match and event takeovers.">
 <link rel="canonical" href="https://www.mobilesoccer.net/">
 <link rel="icon" href="assets/images/mobile-soccer-logo-modern.svg" type="image/svg+xml">
 <link rel="manifest" href="site.webmanifest">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="alternate" type="application/rss+xml" title="Mobile Soccer Media" href="feed.xml">
 <meta name="theme-color" content="#0F1A2B">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="keywords" content="in-game advertising, mobile game advertising, in-game sponsorship, sports game advertising, soccer game advertising, football game sponsorship, mobile esports sponsorship">
 <meta name="author" content="Mobile Soccer Media">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Mobile Soccer Media">
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="Mobile Soccer Media | In-Game Sponsorship in Mobile Football Games">
-<meta property="og:description" content="Direct, brand-safe sponsorship inside live mobile football: LED boards, scoreboards, replays and event takeovers.">
+<meta property="og:title" content="In-Game Advertising for Mobile Soccer Games | Mobile Soccer Media">
+<meta property="og:description" content="Direct, brand-safe in-game advertising inside a mobile soccer game with 100M+ downloads: LED boards, scoreboards, Player of the Match and event takeovers.">
 <meta property="og:url" content="https://www.mobilesoccer.net/">
 <meta property="og:image" content="https://www.mobilesoccer.net/assets/images/og-mobile-soccer-media.jpg">
 <meta property="og:image:width" content="1200">
@@ -46,7 +47,20 @@
       "address": {"@type": "PostalAddress", "streetAddress": "1232 Venture Drive #11-31, Vision Exchange", "addressLocality": "Singapore", "postalCode": "608526", "addressCountry": "SG"},
       "sameAs": ["https://jackieq-beep.github.io/FL27/"]
     },
-    {"@type": "WebSite", "name": "Mobile Soccer Media", "url": "https://www.mobilesoccer.net/"}
+    {"@type": "WebSite", "name": "Mobile Soccer Media", "url": "https://www.mobilesoccer.net/"},
+    {
+      "@type": "Service",
+      "name": "In-game advertising and sponsorship in Football League",
+      "serviceType": "In-game advertising",
+      "provider": {"@type": "Organization", "name": "Mobile Soccer Media"},
+      "areaServed": "Worldwide",
+      "audience": {"@type": "Audience", "audienceType": "Brands, advertisers and media agencies"},
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Sponsorship formats", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Match Takeover", "description": "One partner owns a branded event, its matches, rewards and surrounding screens."}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "In-Game Integration", "description": "Branded moments inside gameplay and match presentation, such as Player of the Match."}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Always-On Placements", "description": "Persistent pitch-side LED board and stadium inventory."}}
+      ]}
+    }
   ]
 }
 </script>
@@ -217,6 +231,27 @@ section { scroll-margin-top: 80px; }
 @media (max-width: 900px) { .contact-grid { grid-template-columns: minmax(0, 1fr); } }
 .contact :focus-visible { outline-color: var(--signal); }
 
+/* FAQ */
+.faq-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 28px clamp(32px, 6vw, 88px); align-items: start; }
+.faq-list { border-top: 2px solid var(--ink); }
+.qa { border-bottom: 1px solid var(--line); }
+.qa summary { cursor: pointer; list-style: none; padding: 20px 40px 20px 0; position: relative; font: 700 19px/1.35 var(--body); }
+.qa summary::-webkit-details-marker { display: none; }
+.qa summary::after { content: "+"; position: absolute; right: 4px; top: 14px; font: 500 28px/1 var(--body); color: var(--turf); }
+.qa[open] summary::after { content: "\2212"; }
+.qa p { padding: 0 40px 22px 0; color: var(--ink-soft); max-width: 64ch; }
+@media (max-width: 900px) { .faq-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* cookie banner */
+.cookies { position: fixed; inset: auto 16px 16px; z-index: 90; max-width: 560px; margin-left: auto; padding: 20px 22px; background: #fff; color: var(--ink);
+  border: 2px solid var(--ink); border-radius: 8px; box-shadow: 0 12px 40px rgba(15,26,43,.18); display: grid; gap: 14px; font-size: 16px; }
+.cookies[hidden] { display: none; }
+.cookies p { color: var(--ink-soft); }
+.cookies .row { display: flex; flex-wrap: wrap; gap: 10px; }
+.cookies .btn { min-height: 44px; padding: 0 18px; font-size: 15px; }
+.linklike { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: var(--ink); cursor: pointer; }
+.linklike:hover { color: var(--turf); }
+
 /* footer */
 footer { padding: 36px 0 44px; font-size: 15px; color: var(--ink-soft); }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px 32px; }
@@ -224,6 +259,21 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 24px; }
 footer a { text-decoration: none; font-weight: 600; color: var(--ink); }
 footer a:hover { color: var(--turf); }
 </style>
+<script>
+  // Google Analytics 4: paste the Measurement ID (looks like G-XXXXXXXXXX) between the quotes.
+  // Analytics only runs after a visitor clicks "Accept" in the cookie banner.
+  window.GA_ID = "";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  (function () {
+    var c = null; try { c = localStorage.getItem("msm_consent"); } catch (e) {}
+    gtag("consent", "default", { analytics_storage: c === "granted" ? "granted" : "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", wait_for_update: 500 });
+    if (window.GA_ID) {
+      var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + window.GA_ID; document.head.appendChild(s);
+      gtag("js", new Date()); gtag("config", window.GA_ID);
+    }
+  })();
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -239,6 +289,7 @@ footer a:hover { color: var(--turf); }
         <li><a href="#formats">Sponsorships</a></li>
         <li><a href="#why">Why it works</a></li>
         <li><a href="#campaigns">Campaigns</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
@@ -252,7 +303,7 @@ footer a:hover { color: var(--turf); }
       <div class="hero-grid">
         <h1>Your brand on the pitch, mid-match.</h1>
         <div class="hero-side">
-          <p class="lede">Mobile Soccer Media is the media arm of Mobile Soccer, the studio behind Football League. We build sponsor placements straight into live matches, so your brand appears where players are watching most closely.</p>
+          <p class="lede">Mobile Soccer Media is the media arm of Mobile Soccer, the studio behind Football League. We sell in-game advertising and sponsorship built straight into live matches, so your brand appears where players are watching most closely.</p>
           <div class="hero-ctas">
             <a class="btn btn-solid" href="#contact">Request inventory</a>
             <a class="btn btn-line" href="#formats">See the formats</a>
@@ -313,7 +364,7 @@ footer a:hover { color: var(--turf); }
     <div class="wrap">
       <div class="head">
         <h2 id="formats-title">Three ways to sponsor the match.</h2>
-        <p class="lede">Start with one, or combine them. Each format is built to feel like matchday, not like an ad break.</p>
+        <p class="lede">Start with one, or combine them. Unlike standard mobile game ads, each format is built to feel like matchday, not like an ad break.</p>
       </div>
       <div class="formats">
         <article class="format format-flag">
@@ -397,7 +448,7 @@ footer a:hover { color: var(--turf); }
     </div>
   </section>
 
-  <section class="block" aria-labelledby="views-title">
+  <section class="block" id="insights" aria-labelledby="views-title">
     <div class="wrap">
       <div class="head">
         <h2 id="views-title">How we think about in-game media.</h2>
@@ -408,6 +459,21 @@ footer a:hover { color: var(--turf); }
         <article><h3>Report what matters</h3><p>We report on how and where players saw your brand, matched to your campaign goals.</p></article>
       </div>
     </div>
+  </section>
+
+  <section class="block block-mist" id="faq" aria-labelledby="faq-title">
+    <div class="wrap faq-grid">
+      <h2 id="faq-title">Questions advertisers ask.</h2>
+      <div class="faq-list">
+<details class="qa" open><summary>What is in-game advertising?</summary><p>In-game advertising places a brand inside the game itself, not in a pop-up or video break. In Football League, that means your brand on pitch-side LED boards, scoreboards, Player of the Match screens and branded events, the same places sponsors appear in real football.</p></details>
+<details class="qa"><summary>Which game are the placements in?</summary><p>Football League, a free mobile soccer game for iOS and Android with over 100 million downloads, made by our studio, Mobile Soccer. Manchester City is officially licensed in the game.</p></details>
+<details class="qa"><summary>Which markets can we reach?</summary><p>The audience is global, and placements can be targeted by region, so a campaign can run worldwide or in selected markets only.</p></details>
+<details class="qa"><summary>Is it brand safe?</summary><p>Yes. You buy directly from the game studio, with no open ad networks. You approve the creative, placement rules are agreed upfront, and your brand only appears in football settings.</p></details>
+<details class="qa"><summary>How are results measured?</summary><p>You get impressions by placement and region, time on screen during live match moments, and a post-campaign report for your brand and agency.</p></details>
+<details class="qa"><summary>How much does it cost?</summary><p>It depends on the format, markets, dates and level of exclusivity. Send us your brief and we'll come back with available inventory and a plan for your budget.</p></details>
+      </div>
+    </div>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is in-game advertising?", "acceptedAnswer": {"@type": "Answer", "text": "In-game advertising places a brand inside the game itself, not in a pop-up or video break. In Football League, that means your brand on pitch-side LED boards, scoreboards, Player of the Match screens and branded events, the same places sponsors appear in real football."}}, {"@type": "Question", "name": "Which game are the placements in?", "acceptedAnswer": {"@type": "Answer", "text": "Football League, a free mobile soccer game for iOS and Android with over 100 million downloads, made by our studio, Mobile Soccer. Manchester City is officially licensed in the game."}}, {"@type": "Question", "name": "Which markets can we reach?", "acceptedAnswer": {"@type": "Answer", "text": "The audience is global, and placements can be targeted by region, so a campaign can run worldwide or in selected markets only."}}, {"@type": "Question", "name": "Is it brand safe?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You buy directly from the game studio, with no open ad networks. You approve the creative, placement rules are agreed upfront, and your brand only appears in football settings."}}, {"@type": "Question", "name": "How are results measured?", "acceptedAnswer": {"@type": "Answer", "text": "You get impressions by placement and region, time on screen during live match moments, and a post-campaign report for your brand and agency."}}, {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the format, markets, dates and level of exclusivity. Send us your brief and we'll come back with available inventory and a plan for your budget."}}]}</script>
   </section>
 
   <section class="block contact" id="contact" aria-labelledby="contact-title">
@@ -438,9 +504,34 @@ footer a:hover { color: var(--turf); }
       <a href="https://jackieq-beep.github.io/FL27/">Football League game</a>
       <a href="#contact">Contact</a>
       <a href="privacy.html">Privacy policy</a>
+      <button class="linklike" type="button" data-cookie-settings>Cookie settings</button>
     </nav>
   </div>
 </footer>
-<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<div class="cookies" role="dialog" aria-live="polite" aria-label="Cookie choice" hidden data-cookies>
+  <p>We'd like to use analytics cookies to see how visitors use this site, so we can improve it. They're only set if you accept. <a href="privacy.html">Privacy policy</a></p>
+  <div class="row">
+    <button class="btn btn-solid" type="button" data-consent="granted">Accept</button>
+    <button class="btn btn-line" type="button" data-consent="denied">Decline</button>
+  </div>
+</div>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+  (function () {
+    var box = document.querySelector("[data-cookies]");
+    var get = function () { try { return localStorage.getItem("msm_consent"); } catch (e) { return null; } };
+    var set = function (v) {
+      try { localStorage.setItem("msm_consent", v); } catch (e) {}
+      gtag("consent", "update", { analytics_storage: v });
+      if (v === "denied") document.cookie.split(";").forEach(function (c) { var n = c.split("=")[0].trim(); if (/^_ga/.test(n)) document.cookie = n + "=; Max-Age=0; path=/; domain=." + location.hostname.replace(/^www\./, ""); });
+      box.hidden = true;
+    };
+    box.querySelectorAll("[data-consent]").forEach(function (b) { b.addEventListener("click", function () { set(b.dataset.consent); }); });
+    document.querySelectorAll("[data-cookie-settings]").forEach(function (b) { b.addEventListener("click", function () { box.hidden = false; }); });
+    if (window.GA_ID && !get()) box.hidden = false;
+    // Count clicks on the email address as leads
+    document.querySelectorAll('a[href^="mailto:"]').forEach(function (a) { a.addEventListener("click", function () { gtag("event", "generate_lead", { method: "email" }); }); });
+  })();
+</script>
 </body>
 </html>

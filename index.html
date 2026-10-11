@@ -75,7 +75,6 @@
   --mist: #F1F4F2;
   --line: #D9DFDB;
   --signal: #FFC629;
-  --board: #0D1420;
   --display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --body: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
   --wrap: 1180px;
@@ -122,7 +121,7 @@ p { margin: 0; }
 @media (max-width: 900px) { .top nav { display: none; } }
 
 /* hero */
-.hero { padding: clamp(48px, 8vw, 104px) 0 0; }
+.hero { padding: clamp(48px, 8vw, 104px) 0 clamp(8px, 2vw, 24px); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px clamp(32px, 6vw, 88px); align-items: end; }
 .hero-side { display: grid; gap: 28px; padding-bottom: 8px; }
 .hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -142,18 +141,6 @@ p { margin: 0; }
   .pin { font-size: 12px; }
   .pin-score { left: 6%; top: 8%; } .pin-led { left: 40%; top: 18%; } .pin-corner { display: none; } .pin-player { left: 46%; top: 72%; }
 }
-
-/* LED perimeter board — the one moving element on the page */
-.board { margin-top: clamp(28px, 4vw, 44px); background: var(--board); border-block: 4px solid #1E2A3C; overflow: hidden; }
-.board-track { display: flex; width: max-content; animation: board 32s linear infinite; }
-.board-item { display: flex; align-items: center; gap: 22px; padding: 18px 36px; white-space: nowrap; border-right: 2px solid #1E2A3C;
-  font: 850 clamp(22px, 2.6vw, 34px)/1 var(--display); font-stretch: 70%; letter-spacing: .02em; color: var(--signal);
-  background-image: radial-gradient(rgba(13,20,32,.55) 1px, transparent 1.2px); background-size: 4px 4px; }
-.board-item.alt { color: #fff; }
-.board-item svg { width: 26px; height: 26px; flex: none; }
-@keyframes board { to { transform: translateX(-50%); } }
-.board:hover .board-track { animation-play-state: paused; }
-@media (prefers-reduced-motion: reduce) { .board-track { animation: none; } }
 
 /* sections */
 section { scroll-margin-top: 80px; }
@@ -318,12 +305,6 @@ footer a:hover { color: var(--turf); }
         <div class="pin pin-player"><span>Player of the match</span></div>
       </figure>
     </div>
-    <div class="board" aria-hidden="true">
-      <div class="board-track">
-        <div class="board-item">YOUR BRAND HERE</div><div class="board-item alt">90 MINUTES OF ATTENTION</div><div class="board-item">YOUR BRAND HERE</div><div class="board-item alt">LIVE IN 100M+ DOWNLOADS</div><div class="board-item">YOUR BRAND HERE</div><div class="board-item alt">MATCHDAY, EVERY DAY</div>
-        <div class="board-item">YOUR BRAND HERE</div><div class="board-item alt">90 MINUTES OF ATTENTION</div><div class="board-item">YOUR BRAND HERE</div><div class="board-item alt">LIVE IN 100M+ DOWNLOADS</div><div class="board-item">YOUR BRAND HERE</div><div class="board-item alt">MATCHDAY, EVERY DAY</div>
-      </div>
-    </div>
   </section>
 
   <section class="block" id="about" aria-labelledby="scale-title">
@@ -412,7 +393,7 @@ footer a:hover { color: var(--turf); }
           </div>
         </div>
         <div class="why-row">
-          <div class="why-media"><img src="assets/images/why-context.webp" width="1200" height="675" alt="The in-game kit and ball selection screen" loading="lazy"></div>
+          <div class="why-media"><img src="assets/images/fl27-pvp-art.webp" width="624" height="608" alt="Two players in Football League kits facing off in Local PvP" loading="lazy" style="aspect-ratio:auto;object-fit:contain;background:#2b3a8f"></div>
           <div class="why-copy">
             <h3>It feels natural</h3>
             <p class="muted">Football has always had sponsors on the boards, the kits and the screens. Placements fit what players expect, so they don't feel like an interruption.</p>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs><clipPath id="cap"><rect x="0" y="412" width="2000" height="204.5"/></clipPath></defs>
+  <rect width="64" height="64" rx="14" fill="#0B7A43"/>
+  <g transform="matrix(0.166259 0 0 0.166259 -14.677 -53.499)">
+    <path clip-path="url(#cap)" d="M184.5 616.5L184.5 412.0L198.8 412.0L280.4 502.7L363.7 412.0L377.0 412.0L377.0 616.5L358.6 616.5L358.6 442.0L280.0 527.8L204.0 443.7L204.0 616.5Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="20" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+</svg>

@@ -1,10 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 888 424.6" width="888" height="424.6" role="img" aria-labelledby="title">
-  <title id="title">Mobile Soccer</title>
-  <g transform="translate(-184 -412)">
-    <g fill="none" stroke="#0F1A2B" stroke-linecap="butt" stroke-linejoin="miter">
-      <path stroke-width="18.4" d="M604.10 412.00V616.50M748.10 412.00V468.00M782.20 412.00V616.50M814.20 412.00V616.50M937.10 488.90V616.50M774.10 709.05V836.60M937.10 633.70V836.60"/>
-      <path stroke-width="17.2" d="M392.60 514.25a93.05 93.05 0 1 0 186.10 0a93.05 93.05 0 1 0 -186.10 0ZM604.10 420.60H757.30M748.10 468A36.0 36.0 0 0 1 712.10 504.05H604.1M604.1 504.05H703.08A51.92 51.92 0 0 1 703.08 607.90H604.1M814.20 607.90H919.10M927.9 420.60H1072M927.9 497.5H1072M937.10 607.90H1072.00M325.1 642.30H228.5C194.5 642.30 174.6 688.8 220.86 723.86L300.92 784.48C332 808 308.5 827.5 294.5 827.5H184M328.95 735.15a93.05 93.05 0 1 0 186.10 0a93.05 93.05 0 1 0 -186.10 0ZM636.5 642.30H624.5A92.850 92.850 0 0 0 624.5 828.00H636.5M754.1 642.30H729.8A92.850 92.850 0 0 0 729.8 828.00H754.1M764.9 642.30H916.2M764.9 717.65H916.2M774.10 828.00H916.20M937.1 642.30H1008.62A49.87 49.87 0 0 1 1008.62 742.05H970"/>
-    </g>
-    <path fill="#0F1A2B" d="M184.50 616.50L184.50 412.00L198.80 412.00L280.40 502.70L363.70 412.00L377.00 412.00L377.00 616.50L358.60 616.50L358.60 442.00L280.00 527.80L204.00 443.70L204.00 616.50ZM954.20 733.80L977.30 733.80L1066.60 836.60L1043.50 836.60Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="183.00 409.00 930.80 430.60" width="930.80" height="430.60" role="img" aria-labelledby="t">
+  <title id="t">Mobile Soccer</title>
+  <defs><clipPath id="caps"><rect x="0" y="412" width="2000" height="204.5"/><rect x="0" y="633.7" width="2000" height="202.89999999999998"/></clipPath></defs>
+  <g fill="none" stroke="#0F1A2B" stroke-linecap="butt" stroke-linejoin="miter">
+    <g transform="translate(2.90 0)"><path clip-path="url(#caps)" fill="#0F1A2B" stroke-width="5.80" d="M184.50 616.50L184.50 412.00L198.80 412.00L280.40 502.70L363.70 412.00L377.00 412.00L377.00 616.50L358.60 616.50L358.60 442.00L280.00 527.80L204.00 443.70L204.00 616.50Z"/></g>
+    <g transform="translate(9.10 0)"><path stroke-width="23.0" d="M392.60 514.25a93.05 93.05 0 1 0 186.10 0a93.05 93.05 0 1 0 -186.10 0Z"/></g>
+    <g transform="translate(15.30 0)"><path stroke-width="24.5" d="M607.15 412.00V616.50"/><path stroke-width="23.0" d="M607.15 423.50H757.30M745.80 412V468A36.0 36.0 0 0 1 709.80 504.05H607.15M607.15 504.05H704.52A50.47 50.47 0 0 1 704.52 605.00H607.15"/></g>
+    <g transform="translate(21.50 0)"><path stroke-width="24.5" d="M785.25 412.00V616.50"/></g>
+    <g transform="translate(27.70 0)"><path stroke-width="24.5" d="M817.25 412.00V616.50"/><path stroke-width="23.0" d="M817.25 605.00H919.10"/></g>
+    <g transform="translate(33.90 0)"><path stroke-width="24.5" d="M940.15 486.00V616.50"/><path stroke-width="23.0" d="M927.9 423.50H1072M927.9 497.5H1072M940.15 605.00H1072.00"/></g>
+    <g transform="translate(2.90 0)"><path stroke-width="23.0" d="M325.1 645.20H228.5C194.5 645.20 174.6 688.8 220.86 723.86L300.92 784.48C332 808 308.5 825.10 294.5 825.10H184"/></g>
+    <g transform="translate(9.10 0)"><path stroke-width="23.0" d="M328.95 735.15a93.05 93.05 0 1 0 186.10 0a93.05 93.05 0 1 0 -186.10 0Z"/></g>
+    <g transform="translate(15.30 0)"></g>
+    <g transform="translate(15.30 0)"><path stroke-width="23.0" d="M636.5 645.20H624.5A89.950 89.950 0 0 0 624.5 825.10H636.5"/></g>
+    <g transform="translate(21.50 0)"><path stroke-width="23.0" d="M754.1 645.20H729.8A89.950 89.950 0 0 0 729.8 825.10H754.1"/></g>
+    <g transform="translate(27.70 0)"><path stroke-width="24.5" d="M777.15 706.15V836.60"/><path stroke-width="23.0" d="M764.9 645.20H916.2M764.9 717.65H916.2M777.15 825.10H916.20"/></g>
+    <g transform="translate(33.90 0)"><path stroke-width="24.5" d="M940.15 633.70V836.60"/><path stroke-width="23.0" d="M940.15 645.20H1010.08A48.42 48.42 0 0 1 1010.08 742.05H976.71"/><path clip-path="url(#caps)" fill="#0F1A2B" stroke-width="5.80" d="M960.91 733.80L984.01 733.80L1073.31 836.60L1050.21 836.60Z"/></g>
   </g>
 </svg>

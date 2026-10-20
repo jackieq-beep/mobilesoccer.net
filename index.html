@@ -6,7 +6,8 @@
 <title>In-Game Advertising for Mobile Soccer Games | Mobile Soccer Media</title>
 <meta name="description" content="In-game advertising and sponsorship inside Football League, a mobile soccer game with 100M+ downloads. Buy direct, brand-safe placements: pitch-side LED boards, scoreboards, Player of the Match and event takeovers.">
 <link rel="canonical" href="https://www.mobilesoccer.net/">
-<link rel="icon" href="assets/images/mobile-soccer-logo-modern.svg" type="image/svg+xml">
+<link rel="icon" href="assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="alternate" type="application/rss+xml" title="Mobile Soccer Media" href="feed.xml">
@@ -41,7 +42,7 @@
       "name": "Mobile Soccer Media",
       "alternateName": "Mobile Soccer",
       "url": "https://www.mobilesoccer.net/",
-      "logo": "https://www.mobilesoccer.net/assets/images/mobile-soccer-logo-modern.svg",
+      "logo": "https://www.mobilesoccer.net/assets/images/mobile-soccer-logo.png",
       "description": "Direct in-game sponsorship for mobile football games, from the studio behind Football League.",
       "email": "partnerships@mobilesoccer.net",
       "address": {"@type": "PostalAddress", "streetAddress": "1232 Venture Drive #11-31, Vision Exchange", "addressLocality": "Singapore", "postalCode": "608526", "addressCountry": "SG"},
@@ -103,12 +104,12 @@ p { margin: 0; }
 .top { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.96); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 70px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font: 800 19px/1.1 var(--display); font-stretch: 85%; }
-.brand img { width: 28px; }
+.brand img { width: auto; height: 44px; display: block; }
 .top nav { display: flex; align-items: center; gap: 26px; }
 .top nav a:not(.btn) { text-decoration: none; font-weight: 600; font-size: 16px; color: var(--ink-soft); }
 .top nav a:not(.btn):hover { color: var(--ink); }
 .top .btn { min-height: 42px; padding: 0 16px; font-size: 15px; white-space: nowrap; }
-@media (max-width: 400px) { .brand span { font-size: 16px; } .mail { font-size: 15px; } }
+@media (max-width: 400px) { .brand img { height: 38px; } .mail { font-size: 15px; } }
 @media (max-width: 860px) { .top nav a:not(.btn) { display: none; } }
 
 /* hero */
@@ -239,7 +240,7 @@ footer { margin-top: 28px; border-top: 1px solid var(--line); padding: 40px 0 44
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="./" aria-label="Mobile Soccer Media home"><img src="assets/images/mobile-soccer-logo-modern.svg" alt="" width="28" height="35"><span>Mobile Soccer Media</span></a>
+    <a class="brand" href="./" aria-label="Mobile Soccer Media home"><img src="assets/images/mobile-soccer-logo.png" alt="Mobile Soccer" width="90" height="44"></a>
     <nav aria-label="Main">
       <a href="#audience">Audience</a>
       <a href="#solutions">Solutions</a>
